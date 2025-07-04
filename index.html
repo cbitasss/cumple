@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cumpleaños</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <div class="esquinas">
+    <span class="fecha-izquierda">JUL 30</span>
+    <span class="fecha-derecha">2025</span>
+  </div>
+
+  <div class="contenido">
+    <h1>CUMPLEAÑOS<br>HANNAH</h1>
+
+    <div class="cuenta-regresiva" id="cuenta-regresiva">
+      <div class="unidad">
+        <span id="dias">--</span>
+        <div class="texto">Días</div>
+      </div>
+      <div class="unidad">
+        <span id="horas">--</span>
+        <div class="texto">Horas</div>
+      </div>
+      <div class="unidad">
+        <span id="minutos">--</span>
+        <div class="texto">Minutos</div>
+      </div>
+      <div class="unidad">
+        <span id="segundos">--</span>
+        <div class="texto">Segundos</div>
+      </div>
+    </div>
+    
+    <a id="boton-sorpresa" class="boton bloqueado" href="portada.html" disabled>
+      Falta un poco...
+    </a>
+  </div>
+
+  <div class="imagen-inferior">
+    <img src="Sources/delicious-cupcake-with-candy-sprinkles-candle.png" alt="Decoración inferior" />
+  </div>
+
+  <div class="corazones-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
